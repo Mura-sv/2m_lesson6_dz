@@ -12,5 +12,10 @@ public class Main {
 
         NumberGeneric<Float> numberGenericFloat = new NumberGeneric<>();
         numberGenericFloat.setFl(12.123f);
+
+        System.out.println(numberGenericInt.print(10));
+        System.out.println(numberGenericDouble.print(5.5));
+        System.out.println(numberGenericFloat.print(10F));
+
     }
 }
